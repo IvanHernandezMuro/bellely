@@ -20,7 +20,6 @@ body {
     overflow-x: hidden;
     margin-left: 6rem;
     margin-right: 1rem;
-    background-color:#f2b5c0;
 }
 
 /** SIDE BAR **/
@@ -33,25 +32,41 @@ body {
     position:fixed;
     top:0;
     left: 0;
-    }
 
- .sidebar:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.sidebar:hover {
     width: 200px;
     overflow: visible;
-    }
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
 
  nav {
     height: 60vh;
     min-height: 50px;
     padding: 20px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
     }
 
  ul {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: yellow;
     }
 
  li a {
@@ -62,6 +77,10 @@ body {
     text-decoration: none;
     padding: 25px .5;
     color: #cacaca;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
     }
 
 li a:hover {
@@ -83,6 +102,10 @@ i.fa {
     text-align:left;    
     letter-spacing: 15px;
     margin-top: 0;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
     }
 
 li p {
@@ -93,32 +116,58 @@ li p {
     font-weight: 5px;
     margin: 0px;
     color:white;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: cyan;
     }
 /**FIN**/
 
 section {
     padding: 3.9rem 0;
     overflow: hidden;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
 }
 
 img {
     width: 100%;
     max-width: 100%;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color:springgreen;
 }
 
 a {
     text-decoration: none;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color:#570f1d;
 }
 
 p {
     font-size: 1.6rem;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
 }
 
 .container {
     width: 100%;
-    max-width: 122.5rem;
-    margin:  0 auto;
-    padding: 0 2.4rem;
+    top: 0;
+    left: 0;
+    max-width: 222.5rem;
+    margin: 0 auto;
+    padding: 0 0.4rem;
+    box-decoration-break: clone;
+    border-style: solid;
+    border-color: saddlebrown;
+    -webkit-box-decoration-break: clone;
 }
 
 /*Header*/
@@ -129,6 +178,10 @@ header {
     left: 0;
     z-index: 1;
     background-image: linear-gradient(to bottom, rgba(0,0,0,.5), transparent);
+
+    border-width: 5px;
+    border-style: solid;
+    border-color:yellow;
 }
 .nav {
     height: 7.2rem;
@@ -146,10 +199,11 @@ header {
     right: 2.5rem;
     cursor: pointer;
     z-index: 1500;
-}
 
-.fa-times {
-    display: none;
+    border-width: 13px;
+    border-style: solid;
+    border-color:#cacaca;
+
 }
 
 .nav-list {
@@ -226,15 +280,18 @@ header {
 
 /*Hero*/
 .hero {
-    width: 100%;
-    height: 100%;
-    background: url("../img2/hedes-completo.png") center no-repeat;
-    background-size:contain;
-    display:flex;
+    width: 100vw;
+    height: 95vh;
+    background: url("../img2/cover.jpg") center no-repeat;
+    background-size:cover;
+    display: flex;
     align-items: center;
     text-align: center;
-    margin-top: 0;
-    padding: 200px;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color:#570f1d;
+    
     }
 
 .h2-sub {
@@ -243,11 +300,19 @@ header {
     color: #3bcc75;
     font-weight: 600;
     line-height: .4;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
 }
 
 .fil {
     text-transform: uppercase;
     font-size: 3rem;
+
+    border-width: 3px;
+    border-style:double;
+    border-color: black;
 }
 
 .heads {
@@ -257,29 +322,38 @@ header {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: .5rem;
+    text-shadow: -1px -1px 0px #2196f3,      3px 3px 0px #2196f3,      6px 6px 0px #0d47a1;
+    border-width: 3px;
+    border-style: double;
+    border-color: rgb(6, 10, 238);
     
-    text-shadow: -1px -1px 0px #2196f3,
-      3px 3px 0px #2196f3,
-      6px 6px 0px #0d47a1;
-    }
+   }
 
 .circle {
     font-size: 1.5rem;
     color: #3bcc75;
     margin: 0 1.6rem;
+
+    border-width: 3px;
+    border-style: double;
+    border-color: green;
 }
 
 /**REVISAR**/
 .he-des h5 {
     color: #570f1d;
     font-size: 1.5rem;
-    font-weight: 900;
+    font-weight: 200;
     text-transform: uppercase;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     letter-spacing: 1.5px;
     margin-right: 3px;
     overflow-wrap:inherit;
+
+    border-width: 3px;
+    border-style: double;
+    border-color:cyan;
     
 }
 
@@ -288,6 +362,10 @@ header {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-right: -2px;
+
+    border-width: 4px;
+    border-style: double;
+    border-color: black;
 }
 
 .cta-btn {
@@ -296,6 +374,7 @@ header {
     padding: 1.5rem 3rem;
     color: #fff;
     border-radius: .4rem;
+
 }
 .cta-btn:hover,
 .cta-btn:focus {
@@ -347,12 +426,22 @@ header {
 .taste {
     background: url("../img2/serv01-micropig.jpg") center no-repeat;
     background-size:contain;
+
+    
+    border-width: 8px;
+    border-style: double;
+    border-color: aliceblue;
 }
 
 .bt {
     min-height: 65vh;
     display: flex;
     align-items: center;
+
+    
+    border-width: 8px;
+    border-style: double;
+    border-color: turquoise;
 }
 
 
@@ -367,11 +456,21 @@ header {
 .disco .res-des {
     padding-top: 3rem;
     margin-bottom: 0;
+
+    
+    border-width: 8px;
+    border-style: double;
+    border-color: aliceblue;
 }
 
 .pb {
     background: url("../img/mesa.jpg") center no-repeat;
     background-size: cover;
+
+    
+    border-width: 8px;
+    border-style: double;
+    border-color: magenta;
 }
 
 
@@ -382,10 +481,21 @@ footer {
     color: #fff;
     text-align: center;
     position: relative;
+    z-index: -1;
+
+    
+    border-width: 8px;
+    border-style: double;
+    border-color: maroon;
 }
 
 .footer-content {
     overflow: hidden;
+
+    
+    border-width: 4px;
+    border-style: solid;
+    border-color: aliceblue;
 }
 
 .footer-content h4 {
@@ -394,18 +504,37 @@ footer {
     font-weight: 100;
     letter-spacing: 3px;
     margin-bottom: 3rem;
+
+    
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(136, 136, 27);
 }
 
 .footer-content .circle{
     margin: 2.4rem 0;
+
+    
+    border-width: 3px;
+    border-style: solid;
+    border-color:pink;
 }
 
 .footer-content-about {
     margin-bottom: 5.4rem;
+
+    
+    border-width: 4px;
+    border-style: solid;
+    border-color: green;
 }
 
 .footer-content-about p {
     line-height: 2;
+
+    border-width: 4px;
+    border-style:double;
+    border-color: palevioletred;
 }
 
 .social-icons {
@@ -419,6 +548,10 @@ footer {
     font-size: 2rem;
     color: #3bcc75;
     padding: .8rem 2rem;
+
+    border-width: 1px;
+    border-style:solid;
+    border-color: azure;
 }
 
 .social-icons i:hover,
@@ -431,6 +564,10 @@ footer {
     position: relative;
     display: flex;
     justify-content: center;
+
+    border-width: 3px;
+    border-style:solid;
+    border-color: green;
 }
 
 .news-input {
@@ -438,6 +575,11 @@ footer {
     max-width: 25rem;
     padding: 1rem;
     border-radius: .4rem;
+
+    border-width: 3px;
+    border-style:solid;
+    border-color: red;
+
 }
 .news-btn {
     background: transparent;
@@ -449,22 +591,33 @@ footer {
     position: absolute;
     top: 30%;
     margin-left: 20.5rem;
+
+    border-width: 1px;
+    border-style:solid;
+    border-color:palevioletred;
 }
 
 @media screen and (min-width: 900px) {
 
     section {
         padding: 7.9rem;
+
+        border-width: 4px;
+        border-style:solid;
+        border-color: green;
     }
 
     .menu-toggle {
         display: none;
-    }
+
+     }
 
     .nav {
         justify-content: space-between;
+
     }
 
+    /*!no existe*/
     .nav-list {
         position: initial;
         width: initial;
@@ -475,20 +628,28 @@ footer {
         flex-direction: row;
         transform: initial;
         transition: initial;
+
+        
+        border-width: 5px;
+        border-style:solid;
+        border-color:maroon;
     }
 
+    /*!no existe*/
     .nav-item {
         margin: 0 2.4rem;
-    }
 
+        
+        border-width: 5px;
+        border-style:solid;
+        border-color:maroon;
+    }
     .nav-item:last-child {
         margin-right: 0;
     }
-
     .nav-link {
         font-size: 1.3rem;
     }
-
     .active {
         position: relative;
     }
@@ -504,42 +665,78 @@ footer {
 
     .h2-sub {
         font-size: 3rem;
+        
+        border-width: 3px;
+        border-style:solid;
+        border-color:maroon;
     }
 
     .fil {
         font-size: 3rem;
+
+        
+        border-width: 3px;
+        border-style:solid;
+        border-color:blue;
     }
     .head {
         font-size: 4.7rem;
         letter-spacing: .8rem;
+
+        
+        border-width: 3px;
+        border-style:solid;
+        border-color:yellowgreen;
     }
 
     .res-info {
         display: flex;
         align-items: center;
+
+        
+        border-width: 5px;
+        border-style:solid;
+        border-color:wheat;
     }
 
     .res-info > div {
         flex: 1;
+        
+        border-width: 3px;
+        border-style:solid;
+        border-color:blueviolet;
     }
 
     .pad-rig {
         padding-right: 7rem;
+
+        border-width: 8px;
+        border-style:solid;
+        border-color:wheat;
     }
 
     .footer-content {
         max-width: 77.5rem;
         margin: auto;
+
+        border-width: 5px;
+        border-style:solid;
+        border-color:green;
     }
 
     .footer-content-about {
         max-width: 51.3rem;
         margin:  0 auto 5.4rem;
+
     }
 
     .footer-div{
         display: flex;
         justify-content: space-between;
+
+        border-width: 4px;
+        border-style:solid;
+        border-color:red;
     }
 
     .social-media,
@@ -547,10 +744,18 @@ footer {
         width: 100%;
         max-width: 27.3rem;
         margin: 0 1rem;
+
+        border-width: 3px;
+        border-style:solid;
+        border-color:cyan;
     }
 
    .news-btn {
        margin-left: 7.5rem;
+
+       border-width: 1px;
+       border-style:solid;
+       border-color:green;
    }
     
 }
