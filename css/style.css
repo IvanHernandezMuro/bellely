@@ -158,15 +158,16 @@ p {
 }
 
 .container {
-    width: 100%;
+    width: 45%;
     top: 0;
     left: 0;
-    max-width: 222.5rem;
-    margin: 0 auto;
-    padding: 0 0.4rem;
+    max-width: 25.5rem;
+    /*margin: 5.5 auto;
+    padding: 1.5 1.4rem;*/
     box-decoration-break: clone;
+    
     border-style: solid;
-    border-color: saddlebrown;
+    border-color:#2a88e6;
     -webkit-box-decoration-break: clone;
 }
 
@@ -285,7 +286,7 @@ header {
     background: url("../img2/cover.jpg") center no-repeat;
     background-size:cover;
     display: flex;
-    align-items: center;
+    align-items:stretch;
     text-align: center;
 
     border-width: 3px;
@@ -316,16 +317,17 @@ header {
 }
 
 .heads {
-    color: #fff;
-    font-size: 3.7rem;
+    color: black;
+    font-size: 3rem;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: .5rem;
-    text-shadow: -1px -1px 0px #2196f3,      3px 3px 0px #2196f3,      6px 6px 0px #0d47a1;
+    font-weight: 500;
+    letter-spacing: .0rem;
+    text-shadow: -1px -1px 0px #2196f3, 3px 3px 0px #f321f3;
+    
     border-width: 3px;
     border-style: double;
-    border-color: rgb(6, 10, 238);
+    border-color: rgb(211, 6, 238);
     
    }
 
@@ -370,16 +372,24 @@ header {
 
 .cta-btn {
     font-size: 1.1rem;
-    background-color: #ffc845;
+    background-color: black;
     padding: 1.5rem 3rem;
-    color: #fff;
+    color: #8b80f9;
     border-radius: .4rem;
 
 }
 .cta-btn:hover,
 .cta-btn:focus {
-    color: #fff;
+    border: 2px solid #8b80f9;
+    box-shadow: #8b80f9 0px 0px 12px 1px inset,                #8b80f9 0px 0px 12px 1px;
+    border-radius:15px;
+    /*color: #fff;
     background-color: #3bcc75;
+    */:;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 .global {
