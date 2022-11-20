@@ -20,7 +20,7 @@ body {
     overflow-x: hidden;
     margin-left: 6rem;
     margin-right: 1rem;
-}
+ }
 
 /** SIDE BAR **/
 .sidebar {
@@ -123,6 +123,7 @@ li p {
     }
 /**FIN**/
 
+/*
 section {
     padding: 3.9rem 0;
     overflow: hidden;
@@ -131,16 +132,7 @@ section {
     border-style: solid;
     border-color:black;
 }
-
-img {
-    width: 100%;
-    max-width: 100%;
-
-    border-width: 3px;
-    border-style: solid;
-    border-color:springgreen;
-}
-
+*/
 a {
     text-decoration: none;
 
@@ -156,34 +148,70 @@ p {
     border-style: solid;
     border-color:black;
 }
+/*TODO: Aqui vamos*/
+.header-primary{
+position:sticky;
+line-height: 2.2rem;
+height: 3.6rem;
+width: 100%;
+top: 0;
+text-align: right;
+right: 0;
+background-color: white;
+border-bottom: 1px solid #eaecef;
+padding: 0.7rem 0.5rem;
 
-.container {
-    width: 45%;
-    top: 0;
-    left: 0;
-    max-width: 25.5rem;
-    /*margin: 5.5 auto;
-    padding: 1.5 1.4rem;*/
-    box-decoration-break: clone;
-    
-    border-style: solid;
-    border-color:#2a88e6;
-    -webkit-box-decoration-break: clone;
+color: black;
+font-size: 3rem;
+font-family: 'Poppins', sans-serif;
+text-transform: uppercase;
+font-weight: 500;
+letter-spacing: .0rem;
+text-shadow: -1px -1px 0px #2196f3, 3px 3px 0px #f321f3;
 }
 
-/*Header*/
+
+
+
+
+.container {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;   
+    margin: auto;
+    /*
+    border-style: solid;
+    border-color:#2a88e6; */
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 5px 8px rgba(15, 15, 15, .5);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+
+    border-width: 3px;
+    border-style:none;
+    border-color: none;
+}
+
+/*Header
 header {
     width: 100%;
     position:fixed;
     top: 0;
     left: 0;
-    z-index: 1;
     background-image: linear-gradient(to bottom, rgba(0,0,0,.5), transparent);
-
-    border-width: 5px;
+    z-index: 900;
+    
+    border-width: 50px;
     border-style: solid;
-    border-color:yellow;
+    border-color:cyan; 
 }
+*/
 .nav {
     height: 7.2rem;
     display: flex;
@@ -199,7 +227,7 @@ header {
     transform: translateY(-50%);
     right: 2.5rem;
     cursor: pointer;
-    z-index: 1500;
+    z-index: 10;
 
     border-width: 13px;
     border-style: solid;
@@ -219,7 +247,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    z-index: 1250;
+    z-index: 10;
     transform: translateX(-100%);
     }
 
@@ -231,7 +259,7 @@ header {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, .8);
-    z-index: 1000;
+    z-index: 10;
     opacity: 0;
     transform: scale(0);
     transition: opacity .5s;
@@ -281,19 +309,19 @@ header {
 
 /*Hero*/
 .hero {
-    width: 100vw;
-    height: 95vh;
-    background: url("../img2/cover.jpg") center no-repeat;
+    width: auto;
+    height:auto;
+    /*background: url("../img2/cover.jpg") center no-repeat;*/
     background-size:cover;
     display: flex;
     align-items:stretch;
     text-align: center;
 
-    border-width: 3px;
+    border-width: 5px;
     border-style: solid;
-    border-color:#570f1d;
-    
+    border-color: red;
     }
+ 
 
 .h2-sub {
     font-size: 3rem;
@@ -316,6 +344,7 @@ header {
     border-color: black;
 }
 
+/*
 .heads {
     color: black;
     font-size: 3rem;
@@ -325,12 +354,11 @@ header {
     letter-spacing: .0rem;
     text-shadow: -1px -1px 0px #2196f3, 3px 3px 0px #f321f3;
     
-    border-width: 3px;
+    border-width: 43px;
     border-style: double;
     border-color: rgb(211, 6, 238);
-    
-   }
-
+       }
+*/
 .circle {
     font-size: 1.5rem;
     color: #3bcc75;
@@ -399,6 +427,10 @@ header {
 
 .dis-sto .global {
     margin-top: 6.9rem;
+
+    border-width: 8px;
+    border-style: double;
+    border-color: red;
 }
 
 .global .circle {
@@ -610,7 +642,7 @@ footer {
 @media screen and (min-width: 900px) {
 
     section {
-        padding: 7.9rem;
+        padding: 0.9rem;
 
         border-width: 4px;
         border-style:solid;
@@ -694,7 +726,7 @@ footer {
         letter-spacing: .8rem;
 
         
-        border-width: 3px;
+        border-width: 50px;
         border-style:solid;
         border-color:yellowgreen;
     }
