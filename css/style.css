@@ -171,7 +171,7 @@ header {
 }
 
 .logo img {
-	width: 670px;
+	width: 375px;
 	border: radius 0;
 	box-shadow: none;
 }
@@ -580,7 +580,7 @@ footer {
 .social-icons i:focus {
 	color: #ffc845;
 }
-
+/*
 .news-form {
 	width: 100%;
 	position: relative;
@@ -617,7 +617,7 @@ footer {
 	border-style: solid;
 	border-color: palevioletred;
 }
-
+*/
 @media screen and (min-width: 900px) {
 	section {
 		padding: 0.9rem;
