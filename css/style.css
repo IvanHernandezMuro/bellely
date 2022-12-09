@@ -15,8 +15,19 @@ html {
 	color: #000;
 	scroll-behavior: smooth;
 }
-
+/*
 body {
+	overflow-x: hidden;
+	margin-left: 6rem;
+	margin-right: 1rem;
+	background-image: url(../img2/cover\ -1296x864.jpg);
+	background-attachment: fixed;
+	overflow: scroll;
+	background-position: center;
+	background-repeat: no-repeat;
+}*/
+
+.header-primary {
 	overflow-x: hidden;
 	margin-left: 6rem;
 	margin-right: 1rem;
@@ -157,11 +168,19 @@ p {
 /*TODO: Aqui vamos */
 
 header {
-	min-height: 70px; /* altura minima */
+	width: auto; /* altura minima */
 	background-color: transparent;
 	justify-content: center;
 	align-items: center;
 	padding: 0px;
+	text-align: center;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-top: auto;
+
+	display: flex;
+	align-items: center;
+	justify-content: inherit;
 }
 
 .logo {
@@ -199,7 +218,7 @@ header {
 }
 
 img {
-	width: 100%;
+	width: 80%;
 	border-radius: 15px;
 	box-shadow: 0px 5px 8px rgba(15, 15, 15, 0.5);
 	-webkit-border-radius: 15px;
