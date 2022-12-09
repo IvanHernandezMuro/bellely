@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+/** SIDE BAR **/
+.sidebar {
+	height: 100vh;
+	width: 3.6rem;
+	background-color: lightcoral;
+	transition: width 0.3s;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1600;
+}
+
+.sidebar:hover {
+	width: 200px;
+	overflow: visible;
+}
+
+nav {
+	height: 60vh;
+	min-height: 50px;
+	padding: 20px;
+}
+
+ul {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	list-style: none;
+}
+
+li a {
+	width: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-decoration: none;
+	padding: 25px 0.5;
+	color: #cacaca;
+}
+
+li a:hover {
+	background-image: letter-spacing(
+		left,
+		#2a88e6 37px,
+		rgba(255, 255, 255, 0.1) 7px
+	);
+	background-image: linear-spacing(
+		to right,
+		#2a88e6 37px,
+		rgba(255, 255, 255, 0.1) 7px
+	);
+	color: aqua;
+}
+
+i.fa {
+	font-size: 50px;
+	text-align: left;
+	letter-spacing: 15px;
+	margin-top: 0;
+}
+
+li p {
+	width: 0px;
+	font-size: 24px;
+	text-align: right;
+	letter-spacing: 0.3px;
+	font-weight: 5px;
+	margin: 0px;
+	color: white;
+}
+/**FIN**/
+
+/*TODO header**/
+.hero {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(/img2/cover.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
