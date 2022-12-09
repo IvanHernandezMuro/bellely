@@ -15,15 +15,15 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(240, 128, 128, 0.603);
+	background-image: url(/img2/fondo-belleza.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .glass {
 	position: relative;
-	width: 250px;
-	height: 300px;
+	width: 35rem;
+	height: 35rem;
 	background: inherit;
 	border-radius: 5%;
 	overflow: hidden;
@@ -32,8 +32,8 @@ body {
 
 .glass::after {
 	content: "";
-	width: 250px;
-	height: 300px;
+	width: 35rem; /*250px*/
+	height: 35rem; /*300px*/
 	background: inherit;
 	position: absolute;
 	top: 0;
@@ -78,13 +78,13 @@ body {
 	justify-content: center;
 	color: white;
 	font-family: "Dosis", sans-serif;
-	color: blueviolet;
 	font-size: 25px;
+	color: blueviolet;
 }
 
 .logo {
-	width: 200px;
-	height: 200px;
+	width: 400px;
+	height: 400px;
 	background-image: url(/img2/logo01-remove.png);
 	background-size: cover;
 }
